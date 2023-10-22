@@ -13,6 +13,13 @@
 		32E3A2E92996911C00E773D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E3A2E72996911C00E773D8 /* Main.storyboard */; };
 		32E3A2EB2996911D00E773D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E3A2EA2996911D00E773D8 /* Assets.xcassets */; };
 		32E3A2EE2996911D00E773D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E3A2EC2996911D00E773D8 /* LaunchScreen.storyboard */; };
+		32E3A2F62996913400E773D8 /* CaptureView.eml in Resources */ = {isa = PBXBuildFile; fileRef = 32E3A2F52996913400E773D8 /* CaptureView.eml */; };
+		32E3A2FC299691E000E773D8 /* UiView+Exrension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E3A2FB299691E000E773D8 /* UiView+Exrension.swift */; };
+		32E3A2FE2996923F00E773D8 /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E3A2FD2996923F00E773D8 /* CaptureView.swift */; };
+		32E3A300299692F200E773D8 /* ImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E3A2FF299692F200E773D8 /* ImagePreviewViewController.swift */; };
+		7FD0BE8229A8AD6A0049662D /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0BE8129A8AD6A0049662D /* RecordingViewController.swift */; };
+		7FD0BE8429A8AE890049662D /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0BE8329A8AE890049662D /* InitialViewController.swift */; };
+		7FD0BE8629A8D7EF0049662D /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0BE8529A8D7EF0049662D /* CameraController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		32E3A2EA2996911D00E773D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32E3A2ED2996911D00E773D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32E3A2EF2996911D00E773D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E3A2F52996913400E773D8 /* CaptureView.eml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CaptureView.eml; sourceTree = "<group>"; };
+		32E3A2FB299691E000E773D8 /* UiView+Exrension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiView+Exrension.swift"; sourceTree = "<group>"; };
+		32E3A2FD2996923F00E773D8 /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
+		32E3A2FF299692F200E773D8 /* ImagePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewViewController.swift; sourceTree = "<group>"; };
+		7FD0BE8129A8AD6A0049662D /* RecordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
+		7FD0BE8329A8AE890049662D /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		7FD0BE8529A8D7EF0049662D /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +72,14 @@
 			children = (
 				32E3A2E12996911C00E773D8 /* AppDelegate.swift */,
 				32E3A2E32996911C00E773D8 /* SceneDelegate.swift */,
+				32E3A2FB299691E000E773D8 /* UiView+Exrension.swift */,
+				32E3A2FD2996923F00E773D8 /* CaptureView.swift */,
+				7FD0BE8329A8AE890049662D /* InitialViewController.swift */,
+				32E3A2FF299692F200E773D8 /* ImagePreviewViewController.swift */,
 				32E3A2E52996911C00E773D8 /* ViewController.swift */,
+				7FD0BE8129A8AD6A0049662D /* RecordingViewController.swift */,
+				7FD0BE8529A8D7EF0049662D /* CameraController.swift */,
+				32E3A2F52996913400E773D8 /* CaptureView.eml */,
 				32E3A2E72996911C00E773D8 /* Main.storyboard */,
 				32E3A2EA2996911D00E773D8 /* Assets.xcassets */,
 				32E3A2EC2996911D00E773D8 /* LaunchScreen.storyboard */,
@@ -127,6 +148,7 @@
 			files = (
 				32E3A2EE2996911D00E773D8 /* LaunchScreen.storyboard in Resources */,
 				32E3A2EB2996911D00E773D8 /* Assets.xcassets in Resources */,
+				32E3A2F62996913400E773D8 /* CaptureView.eml in Resources */,
 				32E3A2E92996911C00E773D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +160,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD0BE8629A8D7EF0049662D /* CameraController.swift in Sources */,
+				32E3A2FC299691E000E773D8 /* UiView+Exrension.swift in Sources */,
 				32E3A2E62996911C00E773D8 /* ViewController.swift in Sources */,
 				32E3A2E22996911C00E773D8 /* AppDelegate.swift in Sources */,
+				7FD0BE8229A8AD6A0049662D /* RecordingViewController.swift in Sources */,
 				32E3A2E42996911C00E773D8 /* SceneDelegate.swift in Sources */,
+				32E3A300299692F200E773D8 /* ImagePreviewViewController.swift in Sources */,
+				32E3A2FE2996923F00E773D8 /* CaptureView.swift in Sources */,
+				7FD0BE8429A8AE890049662D /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,20 +315,22 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 879KKVBR5Y;
+				DEVELOPMENT_TEAM = L2Z5JFXQ85;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CameraOverLayProj/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "cfhgj xfd gbhjj dvfgffg camer";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sa.CameraOverLayProj;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.DemoCameraaaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -315,20 +345,22 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 879KKVBR5Y;
+				DEVELOPMENT_TEAM = L2Z5JFXQ85;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CameraOverLayProj/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "cfhgj xfd gbhjj dvfgffg camer";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sa.CameraOverLayProj;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.DemoCameraaaa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
